@@ -1,0 +1,12 @@
+Readme.md
+cleanup.sh*
+cleanup_extended.sh*
+data.xxx
+dest/
+exit.sh
+file1
+log
+my_cleanup.sh*
+source/
+special.sh
+time.sh*
