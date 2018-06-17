@@ -14,6 +14,10 @@ esac
 let "t2 = ((a = 9, 15 / 3))"  # "a"를 세트하고 "t2"를 계산.
 echo $t2
 
+# 널 명령어(null command). 쉘의 "NOP"(no op, 아무 동작도 않함)에 해당합니다.
+# 쉘 내장 명령인 true의 동의어라고도 볼 수 있습니다.
+# 주의할 점은 :은 bash 내장 명령이기 때문에 종료 상태는 0이라는 것입니다.
+
 : ${username=`whoami`}
 # "username"이 명령어나 내장 명령어가 아닌 경우에
 # ${username=`whoami`}   에 : 없이 쓰면 에러가 납니다.
